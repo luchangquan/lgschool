@@ -2,7 +2,7 @@ package com.lgschool.po;
 
 import java.util.Date;
 
-public class TCount {
+public class TCount extends BasePo{
     private String id;
 
     private String online;

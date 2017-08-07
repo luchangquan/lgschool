@@ -4,12 +4,12 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-  	<context-param>
+ <!--  	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
 			classpath:applications/lgschool/rdbao.xml
 		</param-value>
-	</context-param>
+	</context-param> -->
 	<filter>
 		<filter-name>springCharacter filter</filter-name>
 		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -30,7 +30,7 @@
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>classpath:applications/rdbao-189-web/rdbao-servlet.xml</param-value>
+			<param-value>classpath:rdbao-servlet.xml</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>

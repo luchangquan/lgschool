@@ -2,7 +2,7 @@ package com.lgschool.po;
 
 import java.util.Date;
 
-public class TMessage {
+public class TMessage extends BasePo{
     private String id;
 
     private String username;

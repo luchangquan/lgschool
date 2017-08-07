@@ -2,7 +2,7 @@ package com.lgschool.po;
 
 import java.util.Date;
 
-public class TUser {
+public class TUser extends BasePo{
     private String id;
 
     private String username;

@@ -2,7 +2,7 @@ package com.lgschool.po;
 
 import java.util.Date;
 
-public class TIp {
+public class TIp extends BasePo{
     private String id;
 
     private String area;
